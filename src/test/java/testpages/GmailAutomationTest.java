@@ -32,9 +32,9 @@ public class GmailAutomationTest {
 
 	@Test
 	public void loginAndComposeEmail() throws InterruptedException {
-		loginPage.enterEmail("testingdemo9548@gmail.com");
+		loginPage.enterEmail("testexample@gmail.com");
 		loginPage.clickNext();
-		loginPage.enterPassword("test@#1748$");
+		loginPage.enterPassword("test123");
 		loginPage.clickPasswordNext();
 
 		Thread.sleep(2000);
