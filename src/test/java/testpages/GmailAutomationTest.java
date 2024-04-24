@@ -32,8 +32,10 @@ public class GmailAutomationTest {
 
 	@Test
 	public void loginAndComposeEmail() throws InterruptedException {
+		// pass your gmail id as the argument for enterEmail method!!
 		loginPage.enterEmail("testexample@gmail.com");
 		loginPage.clickNext();
+		//pass your password as the argument for enterPassword method!!
 		loginPage.enterPassword("test123");
 		loginPage.clickPasswordNext();
 
